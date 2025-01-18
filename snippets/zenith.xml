@@ -24,7 +24,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="zenith" />
 
   <!-- build -->
-  <project path="build/make" name="build_make" groups="pdk,sysui-studio" remote="zenith" >
+  <project path="build/make" name="build_make" groups="pdk,sysui-studio" remote="zenith">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -33,12 +33,12 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="zenith" >
-  <project path="build/release" name="build_release" groups="pdk,tradefed" remote="zenith" />
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="zenith" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="zenith">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <project path="build/release" name="build_release" groups="pdk,tradefed" remote="zenith" />
 
   <!-- external -->
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="zenith" />
@@ -78,3 +78,4 @@
   <project path="vendor/gms" name="vendor_gms" remote="zenith-gitlab" clone-depth="1" />
 
 </manifest>
+
