@@ -62,7 +62,8 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="zenith" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="zenith" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="zenith" />
-  
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="zenith" />
+
   <!-- sepolicy -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="zenith" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="zenith" />
