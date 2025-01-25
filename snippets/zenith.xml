@@ -63,6 +63,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="zenith" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="zenith" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="zenith" />
+  <project path="packages/apps/Zenlabs" name="packages_apps_Zenlabs" remote="zenith" />
 
   <!-- sepolicy -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="zenith" />
