@@ -78,6 +78,7 @@
   <project path="vendor/certification" name="vendor_certification" remote="zenith" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="zenith" />
   <project path="vendor/zenith" name="vendor_zenith" remote="zenith" />
+  <project path="vendor/ota" name="ota" remote="zenith" />
   <project path="vendor/gms" name="vendor_gms" remote="zenith-gitlab" clone-depth="1" />
 
 </manifest>
