@@ -64,7 +64,9 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="zenith" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="zenith" />
   <project path="packages/apps/Zenlabs" name="packages_apps_Zenlabs" remote="zenith" />
-
+  <project path="packages/apps/ZenWalls" name="packages_apps_ZenWalls" remote="zenith" />
+  <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="zenith" />
+  
   <!-- sepolicy -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="zenith" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="zenith" />
@@ -80,6 +82,9 @@
   <project path="vendor/zenith" name="vendor_zenith" remote="zenith" />
   <project path="vendor/ota" name="ota" remote="zenith" />
   <project path="vendor/gms" name="vendor_gms" remote="zenith-gitlab" clone-depth="1" />
+  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="zenith" clone-depth="1" />
+  <project path="vendor/apps" name="vendor_apps" remote="zenith-gitlab" clone-depth="1" />
+  <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="zenith" />
 
 </manifest>
 
