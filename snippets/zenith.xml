@@ -13,6 +13,12 @@
            sync-j="4"
            revision="15-qpr1" />
 
+  <remote  name="zenith-gitea"
+           fetch="https://gitea.com/Project-Zenith"
+           sync-c="true"
+           sync-j="4"
+           revision="15-qpr1" />
+
   <!-- art -->
   <project path="art" name="art" groups="pdk" remote="zenith" />
 
@@ -67,6 +73,8 @@
   <project path="packages/apps/ZenWalls" name="packages_apps_ZenWalls" remote="zenith" />
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="zenith" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="zenith" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="zenith" />
+  <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="zenith" />
 
   <!-- sepolicy -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="zenith" />
@@ -86,6 +94,7 @@
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="zenith" clone-depth="1" />
   <project path="vendor/apps" name="vendor_apps" remote="zenith-gitlab" clone-depth="1" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="zenith" />
+  <project path="vendor/vanilla" name="vendor_vanilla" remote="zenith-gitea" clone-depth="1" />
 
 </manifest>
 
