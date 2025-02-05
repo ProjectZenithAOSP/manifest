@@ -66,7 +66,8 @@
   <project path="packages/apps/Zenlabs" name="packages_apps_Zenlabs" remote="zenith" />
   <project path="packages/apps/ZenWalls" name="packages_apps_ZenWalls" remote="zenith" />
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="zenith" />
-  
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="zenith" />
+
   <!-- sepolicy -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="zenith" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="zenith" />
