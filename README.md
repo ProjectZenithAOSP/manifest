@@ -9,7 +9,10 @@ An Android Operating System Based On AOSP.
 
 ### Sync our source ###
 ```bash
-repo init -u https://github.com/ProjectZenithAOSP/manifest.git -b 15-qpr1
+repo init -u https://github.com/ProjectZenithAOSP/manifest.git -b 15-qpr1 --git-lfs
+```
+```bash
+git lfs install
 ```
 ```bash
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
