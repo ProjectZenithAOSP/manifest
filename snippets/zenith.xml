@@ -93,8 +93,6 @@
   <project path="vendor/gms" name="vendor_gms" remote="zenith-gitlab" clone-depth="1" />
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="zenith" clone-depth="1" />
   <project path="vendor/apps" name="vendor_apps" remote="zenith-gitlab" clone-depth="1" />
-  <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="zenith" />
-  <project path="vendor/vanilla" name="vendor_vanilla" remote="zenith-gitea" clone-depth="1" />
 
 </manifest>
 

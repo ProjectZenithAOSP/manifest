@@ -107,6 +107,7 @@
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/modules/adb" />
