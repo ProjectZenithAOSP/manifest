@@ -94,5 +94,7 @@
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="zenith" clone-depth="1" />
   <project path="vendor/apps" name="vendor_apps" remote="zenith-gitlab" clone-depth="1" />
 
+  <!-- Testing -->
+  <project path="platform_testing" name="platform_testing" groups="pdk-fs,pdk-cw-fs,cts,sysui-studio" remote="zenith" />
 </manifest>
 
